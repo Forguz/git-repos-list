@@ -1,9 +1,15 @@
 import React from 'react';
-import './App.css'
-import Graves from './assets/Graves.jpg'
+// import Graves from './assets/Graves.jpg';
+import Routes from './routes';
+import GlobalStyle from './styles/global';
 
 function App() {
-  return <img src={Graves}/>
+  return (
+    <>
+      <Routes />
+      <GlobalStyle />
+    </>
+  );
 }
 
-export default App
+export default App;
